@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TP</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="desain.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="judul">
+                <center><h3>Universitas Pendidikan Indonesia</h3></center>
+            </div>
+
+            <div class="container-fluid">
+                <div class="navbar-header">
+            </div>
+
+            <header>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Tentang UPI</a></li>
+                    <li><a href="#">Akademik</a></li>
+                    <li><a href="#">Kemahasiswaan</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Penerimaan
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Mahasiswa</a></li>
+                          <li><a href="#">Dosen</a></li>
+                        </ul>
+                    </li>
+                    <li style="float: right; margin-left: 700px">
+                        <a href="#" data-toggle="modal" data-target="#exampleModal"><span class="glyphicon glyphicon-user"></span> LOGIN</a>
+                    </li> 
+                </ul>
+            </nav>
+        </div>
+
+        <div class="clearfix"></div>
+
+        </header>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+            <div class="modal-dialog" role="document">
+                <div class="modal-content"> 
+                  <div class="modal-header" style="padding-top: 40px; padding-left: 40px"> 
+                    <h4 class="modal-title" id="exampleModalLabel"> <span class="glyphicon glyphicon-lock"></span> Masuk</h4> 
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
+                      <span aria-hidden="true">&times;</span> 
+                    </button> 
+                  </div> 
+
+                <div class="modal-body" style="padding: 30px 50px 30px 50px;"> 
+                     <div class="form-group"> 
+                      <label for="usr"><span class="glyphicon glyphicon-user"></span> NIM:</label> 
+                      <input type="text" class="form-control" id="usr" placeholder="Masukkan NISN"> 
+                    </div> 
+                    <div class="form-group"> 
+                      <label for="pwd"><span class="glyphicon glyphicon-eye-open"></span> Password:</label> 
+                      <input type="password" class="form-control" id="pwd" placeholder="Masukkan Kode"> 
+                    </div> 
+                    <div class="checkbox"> 
+                      <label><input type="checkbox" value="">Ingatkan Saya</label> 
+                    </div>                  
+                    <button type="button" class="btn btn-primary" style="width: 100%"><span class="glyphicon glyphicon-user"></span> Masuk</button> 
+                  </div> 
+                  <div class="modal-footer"> 
+                    <button type="button" class="btn btn-link" data-dismiss="modal">Daftar</button> 
+                    <button type="button" class="btn btn-link" data-dismiss="modal">Lupa Kode?</button> 
+                  </div> 
+                </div> 
+            </div> 
+        </div>
+                  
+
+    <div class="container-fluid carousel">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="asset/upi4.jpg" alt="UPI" style="width: 100%; height: 500px;">
+                    <div class="carousel-caption">
+                        <h2>Universitas Pendidikan Indonesia</h2>
+                        <h4>Leading and Outstanding University</h4>
+                        <a href="profil.html" class="btn btn-primary" role="button">Lihat Profil</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="asset/upi2.jpg" alt="Kuisioner" style="width: 100%; height: 500px;">
+                    <div class="carousel-caption">
+                        <a href="http://angket.upi.edu/" class="btn btn-primary" role="button">Isi Sekarang</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="asset/upi3.jpg"  alt="Info" style="width: 100%; height: 500px;">
+                </div>
+            </div>   
+
+        </div>
+    </div>
+
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">>
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Sebelumnya</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Selanjutnya</span>
+    </a>
+
+            <div class="container-fluid">
+                <table style="background-color: #E7F0FF; margin-top: 80px">
+                    <tr>
+                        <td>
+                            <center><img src="asset/prestasi.png" style="width: 70px; height: 70px; margin-top: 20px;"></center>
+                            <h2 style="margin-left:9px; text-align: center;">PRESTASI</h2>
+                            <p style="margin-left: 30px; text-align: center;">Hasil pencapaian mahasiswa dan mahasiswi dalam berbagai perlombaan tingkat nasional maupun internasional.</p>
+                            <a href="#" class="btn btn-primary" style="margin-left: 100px; margin-bottom: 20px;">Lihat Selengkapnya >></a>
+                        </td>
+                            
+
+                        <td>
+                            <center><img src="asset/organisasi.png" style="width: 70px; height: 70px; margin-top: 20px;"></center>
+                            <h2 style="margin-left: 10px; text-align: center;">ORGANISASI</h2>
+                            <p style="margin-left: 40px; text-align: center;">Berbagai himpunan organisasi yang ada di dalam lingkup kampus di bawah naungan Universitas Pendidikan Indonesia.</p>
+                            <a href="#" class="btn btn-primary" style="margin-left: 120px; margin-bottom: 20px;">Lihat Selengkapnya >></a>
+                        </td>
+
+                         <td>
+                            <center><img src="asset/alumni.png" style="width: 70px; height: 70px; margin-top: 20px;"></center>
+                            <h2 style="margin-left: 10px; text-align: center;">ALUMNI</h2>
+                            <p style="margin-left: 50px; margin-right: 20px; text-align: center;">Ikatan alumni Universitas Pendidikan Indonesia yang tergabung di dalam sebuah organisasi alumni Universitas Pendidikan Indonesia.</p>
+                            <a href="#" class="btn btn-primary" style="margin-left: 140px; margin-bottom: 20px;">Lihat Selengkapnya >></a>
+                        </td>
+                    </tr>
+                </table>
+ 
+               <hr width="100%" align="center">
+
+               <table style="background-color: #F4F5F0">
+                    <tr>
+                        <td style="padding-top: 0px; padding-bottom: 30px; margin-left: 20px">
+                           <h3 style="margin-left: 40px; margin-right: 20px; margin-top: 0px; padding-right: 0; padding-left: 0; padding-top: 0">TAMAN BUAH, AKAN MENJADI IKON BARU UPI.</h3>
+                           <p style="margin-left: 40px; margin-right: 10px; padding-bottom: 0px"> Menjadi suatu keharusan bagi kita untuk menjaga lingkungan. Terkadang kita lupa apa kontribusi kita dalam memelihara lingkungan. Universitas Pendidikan Indonesia (UPI) merupakan area penyangga kota Bandung, jika UPI tidak baik maka kota Bandung pun akan menjadi tidak baik.</p>
+                           <a href="#" class="btn btn-primary" style="margin-left: 40px; margin-bottom: 0px; margin-top: 20px">Lihat Selengkapnya >></a>
+                        </td>
+
+                        <td><img src="asset/pohon.jpg" style="width: 160px; height: 130px; margin-right: 40px; margin-top: 0"></td>
+
+                        <td style="padding-top: 0px; padding-bottom: 40px; margin-left: 20px">
+                           <h3 style="margin-left: 10px; margin-right: 20px; margin-top: 20px; padding-right: 0; padding-left: 0; padding-top: 0">PENTINGNYA MENGELOLA ARSIP.</h3>
+                           <p style="margin-left: 10px; margin-right: 10px;"> Disadari atau tidak, permasalahan pengelolaan arsip di suatu unit kerja yang penuh dengan arsip, arsip disimpan sesuai dengan kepentingan petugas masing-masing, perbedaan arsip aktif dan inaktif tidak jelas, arsip hilang, arsip yang disimpan sulit ditemukan kembali, penemuan kembali arsip tidak dapat dilakukan cepat dan tepat.</p>
+                           <a href="#" class="btn btn-primary" style="margin-left: 15px; margin-bottom: 10px;">Lihat Selengkapnya >></a>
+                        </td>
+
+                        <td>
+                            <video width="200" height="120" controls poster="asset/isola.jpg">
+                                <source src="asset/upi.mp4" type="video/mp4">
+                                <source src="asset/upi.ogg" type="video/ogg">
+                            </video>
+                        </td>
+
+                    </tr>
+                    
+                    <tr>
+                        <td style="padding-top: 0px; padding-bottom: 30px; margin-left: 20px">
+                           <h3 style="margin-left: 40px; margin-right: 20px; margin-top: 0px; padding-right: 0; padding-left: 0; padding-top: 0">TAMAN BUAH, AKAN MENJADI IKON BARU UPI.</h3>
+                           <p style="margin-left: 40px; margin-right: 10px; padding-bottom: 0px"> Menjadi suatu keharusan bagi kita untuk menjaga lingkungan. Terkadang kita lupa apa kontribusi kita dalam memelihara lingkungan. Universitas Pendidikan Indonesia (UPI) merupakan area penyangga kota Bandung, jika UPI tidak baik maka kota Bandung pun akan menjadi tidak baik.</p>
+                           <a href="#" class="btn btn-primary" style="margin-left: 40px; margin-bottom: 0px; margin-top: 20px">Lihat Selengkapnya >></a>
+                        </td>
+
+                        <td><img src="asset/pohon.jpg" style="width: 160px; height: 130px; margin-right: 40px; margin-top: 0"></td>
+
+                        <td style="padding-top: 0px; padding-bottom: 40px; margin-left: 20px">
+                           <h3 style="margin-left: 10px; margin-right: 20px; margin-top: 20px; padding-right: 0; padding-left: 0; padding-top: 0">PENTINGNYA MENGELOLA ARSIP.</h3>
+                           <p style="margin-left: 10px; margin-right: 10px;"> Disadari atau tidak, permasalahan pengelolaan arsip di suatu unit kerja yang penuh dengan arsip, arsip disimpan sesuai dengan kepentingan petugas masing-masing, perbedaan arsip aktif dan inaktif tidak jelas, arsip hilang, arsip yang disimpan sulit ditemukan kembali, penemuan kembali arsip tidak dapat dilakukan cepat dan tepat.</p>
+                           <a href="#" class="btn btn-primary" style="margin-left: 15px; margin-bottom: 10px;">Lihat Selengkapnya >></a>
+                        </td>
+
+                        <td>
+                            <video width="200" height="120" controls poster="asset/isola.jpg">
+                                <source src="asset/upi.mp4" type="video/mp4">
+                                <source src="asset/upi.ogg" type="video/ogg">
+                            </video>
+                        </td>
+
+                    </tr>
+                    
+               </table>
+            </div>
+            <br><br><br>
+            <div class="footer">
+        <table>
+            <tr>
+            <td>
+                <h4>KERJA SAMA</h4>
+                <p>
+                    Bekerja sama dengan instansi-instansi terbaik di Indonesia agar memberikan siswa/i kami<br>pengalaman dan organisasi serta kualitas belajar yang baik untuk menunjang prestasi belajar mereka
+                </p>
+                <table width="900px">
+                    <tr>
+                        <td>
+                            <img src="asset/kemendikbud.png" width="70px" height="50px">
+                        </td>
+                        <td>
+                            <p style="font-family: times new roman; margin-right: 20px">Kementrian Pendidikan dan Kebudayaan</p>
+                        </td>
+                        <td>
+                            <img src="asset/logoupi.png" width="50px" height="50px" style="margin-left: 0px;">
+                        </td>
+                        <td>
+                            <p style="font-family: times new roman">Universitas Pendidikan Indonesia</p>
+                        </td>
+                        <td>
+                            <img src="asset/kemkominfo.png" width="50px" height="50px">
+                        </td>
+                        <td>
+                            <p style="font-family: times new roman">Kementrian Komunikasi dan Informatika</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <h4>ALAMAT: </h4>
+                <p>     
+                   Jln. Si Ngampang Siap<br> Kecamatan Tak Sulit<br> Kabupaten Pend Ilkom <br>Provinsi A2016<br><p class="glyphicon glyphicon-earphone"> 022-001100</p><br> &#9993; &nbsp;&nbsp;&nbsp;mail@student.upi.edu
+                </p>
+            </td>
+            <td>
+                <h4>LOKASI</h4>
+                <img src="asset/peta.png" width="200px" height="100px">
+            </td>
+            </tr>
+        </table>
+        <p><br><br>Copyright &copy; 2017 - Design: Tia Herdiastuti - 1607648</p>
+    </div>
+           
+    </body>
+
+</html>

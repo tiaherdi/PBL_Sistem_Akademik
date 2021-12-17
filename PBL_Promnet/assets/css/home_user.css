@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{
+background-color:#cc3431;
+float: center;
+margin:auto;
+clear:both;
+height:170px;
+width:auto;
+padding:0px;
+font-size:20px;
+}
+
+#page{
+color:#000;
+margin:auto;
+width:auto;
+height:auto;	
+}
+
+#konten{
+background-color:#FFF;
+height:auto;
+width:auto;
+font-size:15px;
+font-family:"Times New Roman", Times, serif;
+color:#000;
+	
+}
+
+
+#footer {
+	clear: both;
+	height: 80px;
+	width: auto;
+	background-color: #cc3431;
+}
